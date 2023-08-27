@@ -52,9 +52,15 @@ clang-tidy -p build ./src/hello.cpp ./src/world.cpp
 
 
 ### Visual Studio - Clang Power Tools 插件
-Clang Power Tools 是一个第三方扩展， 个人觉得更好用一些, 原因是能够生成 `compile_commands.json` 文件， 能提供给 clangd 等其他工具使用。
+Clang Power Tools 是一个第三方扩展。相比于 VS 自带的 Code Analysis 中的 Clang-Tidy 个人觉得更好用一些:
+- Clang Power Tools 能够生成 `compile_commands.json` 文件， 能提供给 clangd 等其他工具使用
+- Clang Power Tools 的 Tidy 按钮， 执行的 clang-tidy 会忽略 CMakeLists.txt 里指定的 `/execution-charset:gbk`， 而 VS 在开启 Code Analysis 的 Clang-Tidy 后， 编译阶段不识别 `/execution-charset:gbk`, 认为是错误：
+> CLANGTIDY : error : invalid value 'gbk' in '/execution-charset:gbk' [clang-diagnostic-error]
+[据说](https://www.cnblogs.com/xenny/p/10140206.html) clang的execution-charset supports only UTF-8。
 
-需要先安装扩展:
+因此推荐 VS 用户安装使用 Clang Power Tools。
+
+安装扩展: 菜单栏 -> 扩展 -> 管理扩展 -> 搜索 "Clang Power Tools":
 ![](images/clang-power-tools-install.png)
 
 然后在工程中使用：
