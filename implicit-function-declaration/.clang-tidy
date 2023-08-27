@@ -1,2 +1,2 @@
 ---
-WarningsAsErrors: clang-diagnostic-implicit-function-declaration
+WarningsAsErrors: 'clang-diagnostic-implicit-function-declaration'

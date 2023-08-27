@@ -1,2 +1,2 @@
 ---
-WarningsAsErrors: clang-diagnostic-return-type
+WarningsAsErrors: 'clang-diagnostic-return-type'
