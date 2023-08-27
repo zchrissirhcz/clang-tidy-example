@@ -1,0 +1,3 @@
+---
+Checks: 'cppcoreguidelines-virtual-class-destructor'
+WarningsAsErrors: 'cppcoreguidelines-virtual-class-destructor'

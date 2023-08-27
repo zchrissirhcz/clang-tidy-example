@@ -1,0 +1,1 @@
+这个目录下的c/cpp代码， 会被 clang-tidy (16.0.0) 的默认配置（也就是没有 .clang-tidy 时）找到并报告 error， 而直接用编译器编译则可能不会报告错误或 warning。

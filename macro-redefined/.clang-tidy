@@ -1,0 +1,2 @@
+---
+WarningsAsErrors: 'clang-diagnostic-macro-redefined'

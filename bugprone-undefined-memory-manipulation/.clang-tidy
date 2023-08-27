@@ -1,0 +1,3 @@
+---
+Checks: 'bugprone-undefined-memory-manipulation'
+WarningsAsErrors: 'bugprone-undefined-memory-manipulation'

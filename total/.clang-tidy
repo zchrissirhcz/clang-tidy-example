@@ -1,0 +1,48 @@
+---
+WarningsAsErrors: 'clang-diagnostic-array-bounds'
+
+Checks: 'bugprone-undefined-memory-manipulation'
+WarningsAsErrors: 'bugprone-undefined-memory-manipulation'
+
+Checks: 'cppcoreguidelines-virtual-class-destructor'
+WarningsAsErrors: 'cppcoreguidelines-virtual-class-destructor'
+
+WarningsAsErrors: 'clang-analyzer-deadcode.DeadStores'
+
+WarningsAsErrors: 'clang-diagnostic-format'
+
+WarningsAsErrors: 'clang-diagnostic-free-nonheap-object'
+
+Checks: 'hicpp-multiway-paths-covered'
+WarningsAsErrors: 'hicpp-multiway-paths-covered'
+
+WarningsAsErrors: clang-diagnostic-implicit-function-declaration
+
+WarningsAsErrors: 'clang-diagnostic-implicit-int'
+
+WarningsAsErrors: 'clang-diagnostic-incompatible-pointer-types'
+
+WarningsAsErrors: 'clang-diagnostic-int-to-void-pointer-cast'
+
+Checks: 'bugprone-integer-division'
+WarningsAsErrors: 'bugprone-integer-division'
+
+WarningsAsErrors: 'clang-diagnostic-macro-redefined'
+
+WarningsAsErrors: 'clang-diagnostic-multichar'
+
+WarningsAsErrors: 'clang-diagnostic-parentheses'
+
+WarningsAsErrors: clang-diagnostic-return-type
+
+WarningsAsErrors: 'clang-analyzer-core.StackAddressEscape'
+
+WarningsAsErrors: 'clang-analyzer-core.UndefinedBinaryOperatorResult'
+
+WarningsAsErrors: 'clang-diagnostic-unknown-escape-sequence'
+
+WarningsAsErrors: 'clang-diagnostic-unused-comparison'
+
+WarningsAsErrors: 'clang-diagnostic-unused-value'
+
+WarningsAsErrors: 'clang-diagnostic-writable-strings'

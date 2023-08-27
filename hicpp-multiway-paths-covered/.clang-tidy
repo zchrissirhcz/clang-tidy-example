@@ -1,0 +1,3 @@
+---
+Checks: 'hicpp-multiway-paths-covered'
+WarningsAsErrors: 'hicpp-multiway-paths-covered'
